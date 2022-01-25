@@ -1,0 +1,26 @@
+{
+    "resources": {
+        "order": {
+            "lock": false,
+            "allowedSorts": [
+                "id",
+                "customer_id",
+                "user_id"
+            ],
+            "allowedFilters": [
+                "id",
+                "customer_id",
+                "user_id"
+            ],
+            "allowedIncludes": [
+                "items"
+            ]
+        },
+        "test": {
+            "lock": false,
+            "allowedSorts": [],
+            "allowedFilters": [],
+            "allowedIncludes": []
+        }
+    }
+}
